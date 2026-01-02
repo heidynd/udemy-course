@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+	agent {
+            label 'PLUTO'
+        }
 
     tools {
         maven 'MAVEN3.9'
